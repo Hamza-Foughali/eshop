@@ -317,3 +317,39 @@ body {
     color: hotpink; 
     font-weight: bold;
 }
+#cart {
+    border: 2px solid #ddd;
+    padding: 20px;
+    width: 300px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+#shopCart {
+    color: #333;
+}
+
+#cart-items {
+    list-style: none;
+    padding: 0;
+}
+
+#cart-items li {
+    margin-bottom: 10px;
+}
+
+#buttonremove {
+    background-color: hotpink;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+#buttonremove:hover {
+    background-color: hotpink;
+}
+#cart-total{
+    color: #4fac53;
+}
